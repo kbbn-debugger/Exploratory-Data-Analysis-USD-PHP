@@ -1,16 +1,16 @@
 # Fdb version 4
-["bibtex Paper"] 1765918822.58546 "Paper.aux" "Paper.bbl" "Paper" 1765918822.64735 2
+["bibtex Paper"] 0 "Paper.aux" "Paper.bbl" "Paper" 0 -1
   "./references.bib" 1765915643 2510 57d359cef8e9221d3c0435a21f5e8d5b ""
-  "Paper.aux" 1765918814 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "Paper.aux" 1765918829 4110 1743123c4510e11985586ce4b676e3f8 "pdflatex"
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/bibtex/bst/base/unsrt.bst" 1764086256 18030 1376b4b231b50c66211e47e42eda2875 ""
   (generated)
   "Paper.bbl"
   "Paper.blg"
   (rewritten before read)
-["pdflatex"] 1765918820.52365 "c:/Users/User/OneDrive/Desktop/GitHub/Exploratory-Data-Analysis-USD-PHP/Final Paper/Paper.tex" "Paper.pdf" "Paper" 1765918822.19195 2
-  "Paper.aux" 1765918814 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+["pdflatex"] 1765918827.9604 "c:/Users/User/OneDrive/Desktop/GitHub/Exploratory-Data-Analysis-USD-PHP/Final Paper/Paper.tex" "Paper.pdf" "Paper" 1765918829.75711 2
+  "Paper.aux" 1765918829 4110 1743123c4510e11985586ce4b676e3f8 "pdflatex"
   "Paper.bbl" 1765918822 0 d41d8cd98f00b204e9800998ecf8427e "bibtex Paper"
-  "Paper.out" 0 -1 0 "pdflatex"
+  "Paper.out" 1765918829 2825 5adca1a929667528991eae3f1e05080e "pdflatex"
   "Paper.tex" 1765918435 16506 ec0066140f258f06c5180c0aa4e17bda ""
   "appendix.tex" 1765918820 759 9c1b819dc64b798bad91cd04daf41d09 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1743159276 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -18,13 +18,11 @@
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1743159277 1288 655e228510b4c2a1abe905c368440826 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1743159277 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1743159277 1292 21c1c5bfeaebccffdb478fd231a0997d ""
-  "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmti12.tfm" 1743159277 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm" 1743159277 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1743159280 32080 340ef9bf63678554ee606688e7b5339d ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1743159280 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1743159280 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1743159280 32726 39f0f9e62e84beb801509898a605dbd5 ""
-  "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1743159280 36118 fad905eba93cff5bce1e185fe980a177 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1743159280 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1743159284 40635 c40361e206be584d448876bba8a64a3b ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty" 1743159284 33961 6b5c75130e435b2bfdb9f480a09a39f9 ""
