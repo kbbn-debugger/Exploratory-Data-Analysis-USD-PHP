@@ -83,6 +83,10 @@ INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
+INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./Paper.aux
@@ -117,6 +121,17 @@ INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx1
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT ./images/figure1.png
+INPUT ./images/figure1.png
+INPUT ./images/figure1.png
+INPUT ./images/figure1.png
+INPUT ./images/figure1.png
+INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT ./images/figure2.png
+INPUT ./images/figure2.png
+INPUT ./images/figure2.png
+INPUT ./images/figure2.png
+INPUT ./images/figure2.png
 INPUT Paper.aux
 INPUT ./Paper.out
 INPUT ./Paper.out
@@ -124,4 +139,5 @@ INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/e
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
