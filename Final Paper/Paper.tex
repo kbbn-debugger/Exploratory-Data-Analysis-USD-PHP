@@ -6,34 +6,53 @@
 \usepackage{titling}
 \geometry{margin=1in}
 
-% --- Title setup ---
-\pretitle{%
-  \begin{center}
-    \includegraphics[width=0.18\textwidth]{logo.png}\par\vspace{1em}
-    \LARGE\bfseries
-  \end{center}
-}
+% --- Remove default title spacing ---
+\setlength{\droptitle}{-2em}  % adjust vertical spacing if needed
 
-\posttitle{\par}
-
-\title{Temporal Dynamics and Volatility Analysis of the PHP--USD Exchange Rate}
-
+% --- Title and author manually ---
+\title{\Huge\bfseries Temporal Dynamics and Volatility Analysis of the PHP--USD Exchange Rate}
 \author{
-Baul, K.L., Ca\~{n}ete, M.C., Galario, A., Lapad, G.M., Panilag, A.J., Ramirez, G.M.
+\footnotesize Baul, K.L., Ca\~{n}ete, M.C., Galario, A., Lapad, G.M., Panilag, A.J., Ramirez, G.M.\\[0.3em]
+\footnotesize Department of Data Science\\
+\footnotesize University of Science and Technology of Southern Philippines -- CDO
 }
 
 \date{}
 
 \begin{document}
 
-\maketitle
-\vspace{-1em}
+% --- Custom title layout ---
+\begin{center}
+    \includegraphics[width=0.16\textwidth]{logo.png}\par\vspace{1em}
+    {\Huge\bfseries Temporal Dynamics and Volatility Analysis of the PHP--USD Exchange Rate}\par\vspace{1em}
+    {\footnotesize
+    Baul, K.L., Ca\~{n}ete, M.C., Galario, A., Lapad, G.M., Panilag, A.J., Ramirez, G.M.\\
+    Department of Data Science\\
+    University of Science and Technology of Southern Philippines -- CDO\\[0.5em]
+    }
+\end{center}
 
 \begin{center}
 \textbf{Abstract}
 \end{center}
 
-\noindent
+\
 This study examines the temporal behaviour, volatility, and structural shift of the PHP--USD exchange rate from 2010--2024, revealing how the peso's strength responds to domestic policies, global trends, and major economic events. It highlights the exchange rate as a dynamic indicator of national economic stability rather than an isolated metric.
+
+\section{Introduction}
+
+\subsection{Background and Significance}
+
+The PHP--USD exchange rate is a preeminent macroeconomic indicator for the Philippines, a small, open economy heavily reliant on remittances and imports. Fluctuations in the exchange rate directly affect domestic inflation—particularly through the cost of imported commodities such as oil—fiscal stability via US dollar--denominated debt servicing, and the welfare of remittance-receiving households.
+
+Given these critical implications, understanding exchange rate dynamics requires moving beyond a univariate time-series perspective. Classical currency valuation theories, notably Purchasing Power Parity (PPP) and Interest Rate Parity (IRP), posit that exchange rates are fundamentally influenced by cross-country differentials in inflation and interest rates. Consistent with these frameworks, this study incorporates Philippine inflation, US inflation, and the US Federal Funds Rate (DFF) to examine their relationship with the PHP--USD exchange rate.
+
+The 2018–2025 period is particularly salient, as it encompasses extreme macro-financial shocks, including the COVID-19 pandemic (2020) and the aggressive US Federal Reserve interest rate tightening cycle (2022–2023). These events generated pronounced monetary policy divergence, significantly shaping capital flows and exchange rate volatility. Using a multivariate exploratory data analysis (EDA), this study investigates co-movement patterns and volatility dynamics among these variables, providing empirical insights relevant to exchange rate policy and financial risk management.
+
+\subsection{Statement of the Problem}
+
+From 2018 to 2025, the USD–PHP exchange rate experienced significant fluctuations driven by major global and domestic events, including the COVID‑19 pandemic, shifts in interest rates and inflation, oil price instability, and geopolitical tensions such as the Russia–Ukraine war. These events likely affected currency behavior, but the extent, patterns, and timing of their influence remain unclear. This project aims to conduct exploratory data analysis (EDA) to examine how the USD–PHP exchange rate behaved during this period, identify potential seasonal trends, measure changes in volatility before and after the pandemic, and assess whether major events or macroeconomic factors contributed to notable movements in the exchange rate. Understanding these patterns can provide insights into currency sensitivity to shocks and support more informed economic analysis.
+
+
 
 \end{document}
