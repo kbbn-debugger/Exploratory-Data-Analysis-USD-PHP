@@ -132,6 +132,10 @@ INPUT ./images/figure2.png
 INPUT ./images/figure2.png
 INPUT ./images/figure2.png
 INPUT ./images/figure2.png
+INPUT ./Paper.bbl
+INPUT ./Paper.bbl
+INPUT Paper.bbl
+INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT Paper.aux
 INPUT ./Paper.out
 INPUT ./Paper.out
@@ -140,4 +144,5 @@ INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfon
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
