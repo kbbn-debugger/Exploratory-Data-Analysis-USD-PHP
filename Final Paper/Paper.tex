@@ -113,6 +113,8 @@ Furthermore, as the Philippines is a net energy importer, international Oil Pric
     \label{Figure 1}
 \end{figure}
 
+Between Q1 2020 and Q4 2021, the PHP exhibited notable strength, bottoming out near 48.00 PHP/USD. However, the onset of aggressive US Federal Reserve tightening in January 2022, compounded by heightened geopolitical risk from the Russia-Ukraine conflict, triggered a sharp reversal. By late 2022, the Peso reached historic lows near 59.00 PHP/USD. While a brief recovery followed in early 2023, the exchange rate has since stabilized within a volatile range of 54.00 to 58.00 PHP/USD, reflecting persistent inflationary pressures and a widened trade deficit.
+
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.85\textwidth]{images/figure2.png}
@@ -120,13 +122,69 @@ Furthermore, as the Philippines is a net energy importer, international Oil Pric
     \label{Figure 2}
 \end{figure}
 
+
+
 \section{Validation}
+
+The validation of findings was conducted using a rigorous exploratory data analysis framework to ensure data quality, analytical accuracy, and methodological soundness. Data preprocessing procedures were validated through systematic completeness checks, descriptive statistical profiling, and consistency assessments to confirm numerical integrity and temporal alignment. Distributional characteristics were examined using both graphical and statistical techniques to identify outliers, assess dispersion, and confirm economic plausibility.
+
+Relationships among variables were explored using correlation analysis, and the observed associations were directionally and theoretically consistent with established exchange rate and macroeconomic theory. Time-series visualizations further supported the validity of observed trends by confirming temporal continuity, structural shifts, and periods of heightened volatility. Additional inspection of variability and clustering patterns provided preliminary evidence relevant to exchange rate volatility behavior. Extreme observations were evaluated within their historical context and retained when indicative of genuine market shocks rather than data anomalies. The stability of relationships across time intervals further reinforced the reliability of the analytical results. Overall, the consistency of findings across multiple exploratory techniques confirms the robustness of the dataset and its suitability for advanced volatility analysis.
 
 \section{Limitations, Ethics, and Responsible Use}
 
+\subsection{Limitations}
+
+\begin{itemize}
+    \item \textbf{Frequency:} Aggregation to monthly data loses high-frequency volatility (daily clustering) that is critical for short-term risk management.
+    \item \textbf{Model Scope:} The OLS model in the analysis is simplified (excluding the DFF and other critical variables like trade balance/remittances) and assumes linear relationships.
+    \item \textbf{Causality vs. Correlation:} The OLS provides correlation and association, but does not definitively prove causation, especially without formal co-integration testing.
+\end{itemize}
+
+\subsection{Ethics and Responsible Use}
+
+Maintain the same ethical standards regarding transparency and the explicit disclaimer that the results are purely \textbf{exploratory and academic}, and not a basis for financial investment decisions
+
 \section{Conclusion and Actionable Recommendations}
 
+\subsection{Conclusion}
+
+This exploratory analysis confirms that the USD–PHP exchange rate is a dynamic indicator highly sensitive to structural and global macroeconomic shifts. The findings establish three key relationships driving the currency's behavior:
+
+\begin{enumerate} 
+
+    \item \textbf{High External Sensitivity:} The Peso's trajectory shifted sharply in response to major external events, notably the Start of Fed Hikes (Jan 2022), when the U.S. Federal Reserve 
+    signaled a major policy tightening \cite{thestreet}, which triggered a sustained depreciation 
+    to historic highs.
+    
+    \item \textbf{Structural Predictors:} The analysis validates key theoretical drivers:
+    \begin{itemize}
+        \item A strong, positive linear correlation exists between the Interest Rate Differential (US minus PH) 
+        and the USD–PHP exchange rate, confirming its predictive reliability consistent with Interest Rate Parity.
+        \item The persistent and structurally large trade deficit acts as an ongoing depreciation pressure, 
+        requiring high US Dollar demand for imports.
+    \end{itemize}
+    
+    \item \textbf{Domestic Volatility: Philippine inflation} is fundamentally a \textbf{high-volatility, fast-moving process} 
+    with high variance and fast mean reversion, contrasting with the more stable U.S. inflation. 
+    This intrinsic instability contributes to the high volatility observed in the Peso.
+\end{enumerate}
+
+In conclusion, the results underscore the need for policymakers to manage the structural pressures 
+of the trade deficit and anticipate the swift, powerful impact of U.S. monetary policy divergence 
+for effective macroeconomic monitoring and currency risk management.
+
+\subsection{Actionable Recommendations}
+
+\begin{itemize}
+    \item \textbf{Adopt a multifaceted policy response} - Address both short-term financial stability and long-term structural resilience to reduce external vulnerability.
+    \item \textbf{Implement Proactive Differential Management (BSP)} - Actively use monetary policy tools to maintain favorable interest rate differentials relative to U.S. rate hikes, mitigating interest rate parity (IRP)–driven peso depreciation.
+    \item \textbf{Apply Strategic Commodity Hedging} - Introduce targeted hedging mechanisms for oil imports to protect the economy and foreign exchange reserves from cost-push inflation and external price volatility.
+    \item \textbf{Introduce targeted hedging mechanisms for oil imports to protect the economy and foreign exchange reserves from cost-push inflation and external price volatility.} - Promote long-term, high-quality Foreign Direct Investment to generate sustainable USD inflows and counter persistent trade balance pressures.
+\end{itemize}
+
 \section*{References}
+
+
 
 \section*{Appendix}
 

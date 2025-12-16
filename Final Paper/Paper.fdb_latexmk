@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1765909325.39358 "c:/Users/User/OneDrive/Desktop/GitHub/Exploratory-Data-Analysis-USD-PHP/Final Paper/Paper.tex" "Paper.pdf" "Paper" 1765909327.56271 0
-  "Paper.aux" 1765909327 2579 57a8acabebefccb54e8def568b663277 "pdflatex"
-  "Paper.out" 1765909327 2216 bd4cd98eda31a63bda04b459b5a96ecc "pdflatex"
-  "Paper.tex" 1765909322 10705 b16d5e064ca49245b41c89edfd2ca14d ""
+["pdflatex"] 1765911748.09991 "c:/Users/User/OneDrive/Desktop/GitHub/Exploratory-Data-Analysis-USD-PHP/Final Paper/Paper.tex" "Paper.pdf" "Paper" 1765911749.81256 0
+  "Paper.aux" 1765911749 3101 939d266f71d4c72bb5dc8ec14afe6bf8 "pdflatex"
+  "Paper.out" 1765911749 2825 5adca1a929667528991eae3f1e05080e "pdflatex"
+  "Paper.tex" 1765911745 16417 ac5afe544a74e0eb9458592eedf3952f ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1743159276 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1743159277 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1743159277 1288 655e228510b4c2a1abe905c368440826 ""
@@ -60,7 +60,7 @@
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk" 1765896381 14040 a658a85e9fbfecaf6e6cdd8815388ff4 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1764086349 2286077 169bf09af50a69fb1b7a22227b5a7745 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf.cnf" 1743159309 956 b6a8f7a3a63181e0669ee6ae4265dc38 ""
-  "c:/Users/User/OneDrive/Desktop/GitHub/Exploratory-Data-Analysis-USD-PHP/Final Paper/Paper.tex" 1765909322 10705 b16d5e064ca49245b41c89edfd2ca14d ""
+  "c:/Users/User/OneDrive/Desktop/GitHub/Exploratory-Data-Analysis-USD-PHP/Final Paper/Paper.tex" 1765911745 16417 ac5afe544a74e0eb9458592eedf3952f ""
   "images/figure1.png" 1765904203 90683 1a114caf702b879b0e42781aed8f301d ""
   "images/figure2.png" 1765904290 96219 e8cd451362fef4e47e21e0a66af72f4a ""
   "logo.png" 1757766716 627416 e10f44ddb2aaad0360af40b27e797715 ""
