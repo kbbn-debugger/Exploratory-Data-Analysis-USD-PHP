@@ -1,18 +1,18 @@
 # Fdb version 4
-["bibtex Paper"] 0 "Paper.aux" "Paper.bbl" "Paper" 1765918729.75758 -1
+["bibtex Paper"] 1765918822.58546 "Paper.aux" "Paper.bbl" "Paper" 1765918822.64735 2
   "./references.bib" 1765915643 2510 57d359cef8e9221d3c0435a21f5e8d5b ""
-  "Paper.aux" 1765918729 4418 386e86fc1f33b97371bce47d6c695992 "pdflatex"
+  "Paper.aux" 1765918814 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/bibtex/bst/base/unsrt.bst" 1764086256 18030 1376b4b231b50c66211e47e42eda2875 ""
   (generated)
   "Paper.bbl"
   "Paper.blg"
   (rewritten before read)
-["pdflatex"] 1765918728.02162 "c:/Users/User/OneDrive/Desktop/GitHub/Exploratory-Data-Analysis-USD-PHP/Final Paper/Paper.tex" "Paper.pdf" "Paper" 1765918729.7582 2
-  "Paper.aux" 1765918729 4418 386e86fc1f33b97371bce47d6c695992 "pdflatex"
-  "Paper.bbl" 1765915644 1401 06a21d7fca3cef8d66bc8d114c4de541 "bibtex Paper"
-  "Paper.out" 1765918729 2825 5adca1a929667528991eae3f1e05080e "pdflatex"
+["pdflatex"] 1765918820.52365 "c:/Users/User/OneDrive/Desktop/GitHub/Exploratory-Data-Analysis-USD-PHP/Final Paper/Paper.tex" "Paper.pdf" "Paper" 1765918822.19195 2
+  "Paper.aux" 1765918814 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "Paper.bbl" 1765918822 0 d41d8cd98f00b204e9800998ecf8427e "bibtex Paper"
+  "Paper.out" 0 -1 0 "pdflatex"
   "Paper.tex" 1765918435 16506 ec0066140f258f06c5180c0aa4e17bda ""
-  "appendix.tex" 1765918713 789 dc0d78da0ab4576dc1a55977470d67a7 ""
+  "appendix.tex" 1765918820 759 9c1b819dc64b798bad91cd04daf41d09 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1743159276 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1743159277 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1743159277 1288 655e228510b4c2a1abe905c368440826 ""
