@@ -4,6 +4,7 @@
 \usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{titling}
+\usepackage[colorlinks=false, linkcolor=blue, urlcolor=blue, citecolor=blue]{hyperref}
 \geometry{margin=1in}
 
 % --- Remove default title spacing ---
@@ -57,6 +58,47 @@ From 2018 to 2025, the USD–PHP exchange rate experienced significant fluctuati
 
 \section{Methodology}
 
-\subsection{}
+\subsection{Primary Datasets}
+
+This research employs the USD--PHP exchange rate as its primary time-series dataset. We sourced the USD--PHP exchange rate dataset from \href{https://www.investing.com/currencies/usd-php}{Investing.com (2025)}. To maintain a parsimonious model and ensure data stationarity, we extracted only the Daily Closing Price, omitting the auxiliary Open, High, and Low (OHL) metrics. The rationale for this selection is twofold: first, the closing price represents the aggregate daily market consensus; and second, it minimizes volatility bias inherent in intraday trading. This allows for a more robust correlation analysis with secondary datasets that lack high-frequency, intraday granularity.
+
+\subsection{Secondary Datasets}
+
+To provide a comprehensive analysis of the USD-PHP exchange rate, this study integrates a primary exchange rate dataset with four distinct categories of secondary macroeconomic variables. These variables represent the fundamental drivers of currency valuation, encompassing both financial flows and real-economy demands.
+
+First, the study incorporates Interest Rates and Inflation Rates from both the United States and the Philippines. These are utilized to capture the 'interest rate differential' and 'purchasing power parity' effects, which dictate capital allocation and investment flows between the two nations.
+
+Second, to account for the structural supply-demand dynamics of the Philippine economy, the study integrates Merchandise Trade Statistics—specifically the total value of Merchandise Imports and Exports for the Philippines. In the Philippine context, the Merchandise Trade Balance is a critical determinant of currency value; a widening trade deficit in physical goods necessitates a higher demand for US Dollars to settle international payments, typically leading to Peso depreciation. By focusing on merchandise trade, the analysis captures the direct impact of the physical economy on foreign exchange requirements.
+
+Furthermore, as the Philippines is a net energy importer, international Oil Prices (Crude and Brent) are included to reflect the cost-push inflationary pressures and the subsequent drain on foreign exchange reserves required for fuel procurement. Finally, OFW Remittances are integrated as a primary supply-side factor. As a significant contributor to the Philippine GDP, these remittances represent a consistent inflow of US Dollars, acting as a key stabilizer for the local currency against external shocks. By combining these datasets, the model can effectively distinguish between short-term financial speculation and the fundamental commercial requirements of the Philippine economy.
+
+\subsection{Data Cleaning and Preprocessing}
+
+\subsubsection*{Data preparation}
+\begin{itemize}
+    \item Datasets were loaded using \texttt{pd.read\_csv()}, validated with \texttt{df.info()} and \texttt{df.describe()}, and checked for missing values via \texttt{df.isna().sum()}.
+    \item Variables were standardized, datetime fields were created using \texttt{pd.to\_datetime()}, and datasets were merged through index-based joins.
+\end{itemize}
+
+\subsubsection*{Feature engineering}
+\begin{itemize}
+    \item Interest rate and inflation differentials were computed to capture relative monetary conditions and purchasing power, reducing multicollinearity and aligning with interest parity and PPP theories.
+    \item The Philippine trade balance was included to represent real-sector foreign exchange flows and macroeconomic shocks.
+\end{itemize}
+
+\subsubsection*{Analytical rationale}
+\begin{itemize}
+    \item These steps produce a concise, economically grounded dataset that captures financial, price-level, and real economic drivers of USD--PHP movements for exploratory data analysis.
+\end{itemize}
+
+\subsection{Methods}
+
+\begin{itemize}
+    \item The study utilized an \textbf{exploratory data analysis} approach on multi-source time-series datasets, incorporating data cleaning, type conversion, temporal indexing, and alignment through resampling and merging procedures.
+    \item \textbf{Descriptive and exploratory techniques} were applied, including missing-data assessment, feature engineering, rolling-window statistics, and decomposition methods to isolate trend, seasonal, and irregular components.
+    \item \textbf{Visual time-series analytics} (e.g., line plots and comparative trend charts) were employed to detect temporal patterns, co-movements, and structural variations without enforcing a predefined econometric model.
+\end{itemize}
+
+
 
 \end{document}
