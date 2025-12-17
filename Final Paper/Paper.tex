@@ -144,6 +144,8 @@ In terms of peaks and troughs, PH inflation has sharp, short-lived highs and low
     \label{Figure 4}
 \end{figure}
 
+The sustained \textbf{trade deficit} shown in Figure 4, characterized by a worsening trend from 2021 to 2023, is fundamentally explained by the divergent patterns in exports and imports visible in Graph~\ref{app:graph:6}. The latter shows that, while \textbf{Exports} (blue line) displayed only moderate growth after the initial pandemic dip in early 2020, \textbf{Imports} (green line) experienced a robust, significant, and persistent recovery, consistently maintaining a value substantially higher than exports throughout the period. This dominant import growth necessitates a constant outflow of US Dollars, which is structurally reflected in the persistent and volatile trade deficits of Figure 3. Global commodity costs compound this pressure: Graph~\ref{app:graph:10} reveals a \textbf{high negative correlation} between the \textbf{Trade Balance} and \textbf{Price Crude} (Crude Oil) and \textbf{Price Brent} (Brent Oil) (values around $-0.83$), indicating that when global oil prices rise (as seen in the peak in Graph~\ref{app:graph:2}), the trade balance deteriorates sharply. Since the Philippines is a net energy importer, higher oil prices directly increase the cost of its already high import bill, requiring more foreign currency to settle payments and worsening the trade deficit, a key factor that puts downward pressure on the Peso. Ultimately, the trade balance's \textbf{high negative correlation} with the \textbf{Price USD-PHP} (around $-0.61$ in Graph~\ref{app:graph:10}) confirms that the worsening deficit strongly drives the depreciation (increase in the value) of the Peso.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{images/figure4.png}
@@ -151,12 +153,26 @@ In terms of peaks and troughs, PH inflation has sharp, short-lived highs and low
     \label{Figure 5}
 \end{figure}
 
+The scatter plot in Figure 5 visually confirms a \textbf{strong, positive linear correlation} between the Interest Rate Differential (US Rate minus PH Rate) on the horizontal axis and the USD-PHP Exchange Rate on the vertical axis. This key feature, represented by the upward-sloping regression line and tightly clustered data points, is statistically supported by Graph~\ref{app:graph:10} (Heatmap), which shows a \textbf{strong positive correlation} between the \textbf{Interest Differential} and the \textbf{Price USD-PHP} (a value around $+0.65$). This relationship implies that as the Interest Rate Differential moves to the right (becoming less negative, meaning the US interest rate is declining relative to the Philippine rate), the USD-PHP Exchange Rate tends to increase, causing the Philippine Peso to depreciate. Conversely, when the Interest Differential becomes more negative (as the US rate rises relative to the PH rate), the Peso tends to appreciate. The overall tightness of the data in Figure 4, reinforced by the high correlation coefficient in Graph~\ref{app:graph:10}, suggests that the divergence in interest rates between the two countries is a \textbf{significant and reliable predictor} of the movements in the USD-PHP exchange rate, directly supporting the principles of Interest Rate Parity theory.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{images/figure5.png}
     \caption{USD-PHP Exchange Rate Volatility: Pinpointing Dates of Major Trend Changes}
     \label{Figure 6}
 \end{figure}
+
+The structural \textbf{Change Point Break Dates} identified in Figure 6 serve as markers for fundamental shifts in the USD-PHP exchange rate's behavior, which are comprehensively supported by corresponding movements in underlying macroeconomic drivers (Graphs~\ref{app:graph:3}, \ref{app:graph:4}, \ref{app:graph:5}, \ref{app:graph:7}, \ref{app:graph:10}, \ref{app:graph:11}, and \ref{app:graph:13}). The overall narrative of the exchange rate shifting from initial stability to \textbf{significant depreciation} is directly tied to changes in cross-country differentials (Graph~\ref{app:graph:13}). The \textbf{strong positive correlation} between the \textbf{Interest Differential} and the \textbf{Price USD-PHP} (around $+0.65$ in Graph~\ref{app:graph:10}, and visually confirmed in Figure 5 and Graph~\ref{app:graph:11}) confirms that shifts in interest rate policy are the primary structural mechanism driving the Peso's value.
+
+This mechanism is evident in two major phases:
+
+\begin{enumerate}
+    \item \textbf{Break 2 (Nov 2021) and the Depreciation Phase:} This break precedes the \textbf{Start of Fed Hikes (Jan 2022)} and marks the end of the Peso's post-pandemic strength. It coincides with the \textbf{Interest Differential (Graph~\ref{app:graph:3})} nearing its least negative point and the \textbf{Inflation Differential (Graph~\ref{app:graph:4})} beginning its sharp spike. Crucially, the \textbf{Multivariate Change Point Detection (Graph~\ref{app:graph:13})} highlights this as the beginning of a sustained macro regime change (blue-to-pink transition in late 2021/early 2022) across the Exchange Rate, Interest Differential, and Inflation Differential. This shift was fueled by the strong negative correlation between the \textbf{Trade Balance} and the \textbf{Price USD-PHP} ($-0.61$ in Graph~\ref{app:graph:10}), as the \textbf{Trade Balance (Graph~\ref{app:graph:7})} was already rapidly deteriorating.
+    
+    \item \textbf{Break 3 (Sep 2022) and Maximum Pressure:} This break coincides with the height of the \textbf{Russia-Ukraine invasion (Feb 2022)}, which propelled oil prices to their peak (Graph~\ref{app:graph:2}). The \textbf{Trade Balance (Graph~\ref{app:graph:7})} reached its lowest point shortly after, driven by the strong negative correlation with rising oil costs (Graph~\ref{app:graph:10}). The resulting deficit created maximum demand for US Dollars, coinciding with the Peso's lowest value. This peak pressure occurred despite \textbf{OFW Remittances (Graph~\ref{app:graph:5})} maintaining a stable, cyclical inflow, underscoring that the external pressures from trade and monetary policy vastly outweighed the stabilizing effect of remittances on the foreign currency supply.
+\end{enumerate}
+
+In summary, the statistically identified breaks in Figure 5 are not isolated events but rather the result of a \textbf{synchronized regime change} across the Interest Rate Differential, the Trade Balance, and the Inflation Differential, all acting consistently with their high correlation coefficients in Graph~\ref{app:graph:10} to push the Peso into its deepest depreciation phase.
 
 \section{Validation}
 
