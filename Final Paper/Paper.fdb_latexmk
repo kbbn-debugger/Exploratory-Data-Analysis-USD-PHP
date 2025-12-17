@@ -1,17 +1,17 @@
 # Fdb version 4
-["bibtex Paper"] 1765957399.32249 "Paper.aux" "Paper.bbl" "Paper" 1765957402.7325 0
+["bibtex Paper"] 1765959724.77678 "Paper.aux" "Paper.bbl" "Paper" 1765959750.49587 0
   "./references.bib" 1765915643 2510 57d359cef8e9221d3c0435a21f5e8d5b ""
-  "Paper.aux" 1765957402 11051 2728dd0d689dc8ec1169b3e5da0f8b15 "pdflatex"
+  "Paper.aux" 1765959750 11051 82f4f0e9aea10311c3ee00ae1678542c "pdflatex"
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/bibtex/bst/base/unsrt.bst" 1764086256 18030 1376b4b231b50c66211e47e42eda2875 ""
   (generated)
   "Paper.bbl"
   "Paper.blg"
   (rewritten before read)
-["pdflatex"] 1765957399.36684 "c:/Users/User/OneDrive/Desktop/GitHub/Exploratory-Data-Analysis-USD-PHP/Final Paper/Paper.tex" "Paper.pdf" "Paper" 1765957402.73317 0
-  "Paper.aux" 1765957402 11051 2728dd0d689dc8ec1169b3e5da0f8b15 "pdflatex"
-  "Paper.bbl" 1765957399 1401 06a21d7fca3cef8d66bc8d114c4de541 "bibtex Paper"
-  "Paper.out" 1765957402 2825 5adca1a929667528991eae3f1e05080e "pdflatex"
-  "Paper.tex" 1765957395 26278 5b156cc336bfa2003e6c13f6ee608e7a ""
+["pdflatex"] 1765959747.04602 "c:/Users/User/OneDrive/Desktop/GitHub/Exploratory-Data-Analysis-USD-PHP/Final Paper/Paper.tex" "Paper.pdf" "Paper" 1765959750.49648 0
+  "Paper.aux" 1765959750 11051 82f4f0e9aea10311c3ee00ae1678542c "pdflatex"
+  "Paper.bbl" 1765959724 1401 06a21d7fca3cef8d66bc8d114c4de541 "bibtex Paper"
+  "Paper.out" 1765959750 2825 5adca1a929667528991eae3f1e05080e "pdflatex"
+  "Paper.tex" 1765959746 28149 805d4e2716b4c92acef93e5cfb3ad805 ""
   "appendix.tex" 1765955075 5000 15e850ae0ec6b9feb91910320746b438 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1743159276 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1743159277 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -82,7 +82,7 @@
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk" 1765896381 14040 a658a85e9fbfecaf6e6cdd8815388ff4 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1764086349 2286077 169bf09af50a69fb1b7a22227b5a7745 ""
   "c:/Users/User/AppData/Roaming/TinyTeX/texmf.cnf" 1743159309 956 b6a8f7a3a63181e0669ee6ae4265dc38 ""
-  "c:/Users/User/OneDrive/Desktop/GitHub/Exploratory-Data-Analysis-USD-PHP/Final Paper/Paper.tex" 1765957395 26278 5b156cc336bfa2003e6c13f6ee608e7a ""
+  "c:/Users/User/OneDrive/Desktop/GitHub/Exploratory-Data-Analysis-USD-PHP/Final Paper/Paper.tex" 1765959746 28149 805d4e2716b4c92acef93e5cfb3ad805 ""
   "images/figure1.2.png" 1765951930 66565 c6255005c6298a7f15dd0673de6266b3 ""
   "images/figure1.png" 1765904203 90683 1a114caf702b879b0e42781aed8f301d ""
   "images/figure2.png" 1765904290 96219 e8cd451362fef4e47e21e0a66af72f4a ""
